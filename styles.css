@@ -57,5 +57,37 @@ header nav ul li::after{
 
 header nav ul li:hover::after{
     width: 100%;
-    /* transition: all 0.3s ease; */
+}
+
+.container{
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(135deg, #1f1f2e 0%, #0f0f1e 100%);
+    overflow: hidden;
+}
+
+.container::before{
+    content: '';
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(0,247,255,0.2) 0%, rgba(15, 15, 30, 0) 70%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: blur(50px);
+    z-index: 1;
+    anuimation: pulse 5s infinite alternate;
+}
+
+@keyframes pulse{
+    0%{
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0.5;
+    }
+    100%{
+        transform: translate(-50%, -50%) scale(1.5);
+        opacity: 1;
+    }
 }
