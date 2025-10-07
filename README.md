@@ -20,8 +20,6 @@ Este projeto está **no começo**, mas já traz a **vibe urbana, atitude e estil
 - 🎨 CSS3  
 - ⚡ JavaScript  
 
-*(Mais tecnologias podem ser adicionadas conforme o projeto evolui)*
-
 ---
 
 ## 📂 Estrutura Inicial
