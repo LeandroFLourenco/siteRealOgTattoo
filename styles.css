@@ -236,3 +236,16 @@ header nav ul li:hover::after{
     gap: 15px;
     z-index: 5;
 }
+
+.number{
+    font-family: "Orbitron", sans-serif;
+
+}
+
+.dots{
+
+}
+
+.dot{
+
+}
