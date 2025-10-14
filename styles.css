@@ -243,9 +243,13 @@ header nav ul li:hover::after{
 }
 
 .dots{
-
+    display: flex;
+    gap: 10px;
 }
 
 .dot{
-
+    width: 40px;
+    height: 4px;
+    color: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
 }
