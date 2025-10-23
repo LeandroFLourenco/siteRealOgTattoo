@@ -277,3 +277,10 @@ header nav ul li:hover::after{
     border-radius: 50%;
     border: 1px solid rgba(0, 247, 255, 0.2);
 }
+
+.circle:nth-child(1){
+    width: 200px;
+    height: 200px;
+    top: 10%;
+    left: 10%;
+}
