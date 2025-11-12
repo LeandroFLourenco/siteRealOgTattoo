@@ -78,7 +78,7 @@ header nav ul li:hover::after{
     transform: translate(-50%, -50%);
     filter: blur(50px);
     z-index: 1;
-    anuimation: pulse 5s infinite alternate;
+    animation: pulse 5s infinite alternate;
 }
 
 @keyframes pulse{
