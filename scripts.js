@@ -10,6 +10,18 @@ let active = 0;
 const total = items.length;
 let timer;
 
+function update(direction) {
+
+}
+
+
+
+
+
+
+
+
+
 prevButton.addEventListener('click', function() {
     alert('Previous button clicked');
 })
