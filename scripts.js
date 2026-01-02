@@ -11,8 +11,19 @@ const total = items.length;
 let timer;
 
 function update(direction) {
+    
+    document.querySelector('.item.active').classList.remove('active');
+    document.querySelector('.dot.active').classList.remove('active');
 
-}
+    if(direction > 0) {
+        active = active + 1
+
+        if(active >= total) {
+    } 
+    
+    else  if(direction < 0) {
+
+    }
 
 
 
@@ -23,9 +34,9 @@ function update(direction) {
 
 
 prevButton.addEventListener('click', function() {
-    alert('Previous button clicked');
+    update(-1);
 })
 
 nextButton.addEventListener('click', function() {
-    alert('Next button clicked');
+    update(1);
 })
